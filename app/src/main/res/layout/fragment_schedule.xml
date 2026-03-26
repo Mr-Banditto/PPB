@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <!-- Header Tabel -->
+        <TableRow android:background="@android:color/darker_gray" android:padding="8dp">
+            <TextView android:text="HARI" android:textStyle="bold" android:textColor="@android:color/white" android:padding="4dp"/>
+            <TextView android:text="MATA KULIAH" android:textStyle="bold" android:textColor="@android:color/white" android:padding="4dp"/>
+            <TextView android:text="JAM" android:textStyle="bold" android:textColor="@android:color/white" android:padding="4dp"/>
+        </TableRow>
+
+        <!-- Baris Jadwal 1 -->
+        <TableRow android:padding="8dp">
+            <TextView android:text="Senin" android:padding="4dp"/>
+            <TextView android:text="Pemrograman Mobile" android:padding="4dp"/>
+            <TextView android:text="08:00" android:padding="4dp"/>
+        </TableRow>
+
+        <!-- Baris Jadwal 2 -->
+        <TableRow android:padding="8dp" android:background="#F0F0F0">
+            <TextView android:text="Selasa" android:padding="4dp"/>
+            <TextView android:text="Basis Data" android:padding="4dp"/>
+            <TextView android:text="10:00" android:padding="4dp"/>
+        </TableRow>
+
+        <!-- Baris Jadwal 3 -->
+        <TableRow android:padding="8dp">
+            <TextView android:text="Rabu" android:padding="4dp"/>
+            <TextView android:text="Jaringan Komputer" android:padding="4dp"/>
+            <TextView android:text="13:00" android:padding="4dp"/>
+        </TableRow>
+
+        <!-- Baris Jadwal 4 -->
+        <TableRow android:padding="8dp" android:background="#F0F0F0">
+            <TextView android:text="Kamis" android:padding="4dp"/>
+            <TextView android:text="Kecerdasan Buatan" android:padding="4dp"/>
+            <TextView android:text="08:00" android:padding="4dp"/>
+        </TableRow>
+
+        <!-- Baris Jadwal 5 -->
+        <TableRow android:padding="8dp">
+            <TextView android:text="Jumat" android:padding="4dp"/>
+            <TextView android:text="Etika Profesi" android:padding="4dp"/>
+            <TextView android:text="15:30" android:padding="4dp"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
